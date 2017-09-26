@@ -37,10 +37,10 @@ void ps_out();
 #include <SPI.h>
 
 #define relay1 P1_0
-#define relay2 P1_4
+#define relay2 P2_3
 #define relay3 P2_5
 #define relay4 P2_4
-#define buzzer P2_3
+#define buzzer P1_4
 
 Enrf24 radio(P2_0, P2_1, P2_2);
 const uint8_t rxaddr[] = { 0xFF, 0xFF, 0xFF, 0xFF, 0x01 };
