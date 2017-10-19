@@ -1,4 +1,6 @@
 //nRF24L01 - MSP430 Launchpad
+//1 GND
+//2 VCC
 //3 CE   - P2.0:
 //4 CSN  - P2.1:
 //5 SCK  - P1.5:
@@ -16,9 +18,9 @@
 // 	                 RELAY2 P1.4  6|    |15  P1.7 MOSI  6
 // 	                 5  SCK P1.5  7|    |14  P1.6 MISO  7
 // 	                 3   CE P2.0  8|    |13  P2.5 RELAY3
-// 	   	 	         4  CSN P2.1  9|    |12  P2.4 RELAY4
-//		 	         8  IRQ P2.2 10|    |11  P2.3 BUZZER
-// 			                       +----+
+//                       4  CSN P2.1  9|    |12  P2.4 RELAY4
+//                       8  IRQ P2.2 10|    |11  P2.3 BUZZER
+//                                     +----+
 //
 //
 
